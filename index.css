@@ -1,0 +1,40 @@
+#clock{
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    background-image: url("clock.jpg");
+    background-size: 100%;
+    position: relative;
+}
+
+#hourhand,#minhand,#sechand{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hourhand{
+    width: 3%;
+    height: 22%;
+    background-color: black;
+    top: 26%;
+    left: 48%;
+
+}
+
+#minhand{
+    width: 2%;
+    height: 28%;
+    background-color: black;
+    top: 20%;
+    left: 48%;
+    
+}
+
+#sechand{
+    width: 1%;
+    height: 35%;
+    background-color: black;
+    top: 13%;
+    left: 49%;
+}
